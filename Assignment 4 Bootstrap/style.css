@@ -1,0 +1,55 @@
+* Navbar color customization */ .navbar-custom {
+  background-color: #ff9999; /* Pink color */
+}
+
+/* Custom font for headings */
+h2 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #333; /* Dark gray color */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust margins for smaller devices */
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+}
+body {
+  background-color: rgb(245, 192, 201);
+}
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+/* Styling for the div containing bride and groom image */
+.bride-groom-container {
+  border: 2px solid #ff9999; /* Pink border */
+  border-radius: 10px;
+  overflow: hidden; /* Ensures the image stays within the container */
+}
+
+.bride-groom-container img {
+  width: 100%; /* Ensure the image fills the container */
+}
+
+/* Additional styling for the bride and groom section */
+.bride-groom-info {
+  background-color: #fff; /* White background */
+  padding: 20px;
+  text-align: center;
+}
+
+.bride-groom-info h2 {
+  color: #ff9999; /* Pink color */
+}
+
+.bride-groom-info p {
+  color: #333; /* Dark gray color */
+}
